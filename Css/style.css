@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(16, 155, 210, 1); 
+}
+.div_map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.div_map svg {
+    margin-left: 100px;
+    width: 840px;
+    height: calc(840px);
+}
+.div_map a path {
+    fill:rgba(0, 0, 11, 0.8);
+    stroke: rgba(93, 62, 17, 0.8);
+    stroke-width: 3px;
+    stroke-opacity: 2;
+    transition: fill 0.2s  ease-in-out;
+}
+.div_map a path:hover {
+    fill: rgba(117, 242, 78, 0.7);;
+}
+.container {
+    width: 20%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(5%,50%);
+}
+.container .con_date {
+    margin: 10px 50px;
+    font-size: 21px;
+    line-height: 1.4em;
+    color: #f1f1f1;
+}
+.container hr{
+    width: 75%;
+}
+.container ._nhiemBenh {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+.container ._nhiemBenh #infor_1 {
+    background: rgba(190, 207, 188, 0.9);
+}
+.container ._nhiemBenh #infor_2 {
+    background: rgba(0, 207, 52, 0.9);
+}
+.container ._nhiemBenh #infor_3 {
+    background: rgba(199, 77, 63, 1);
+}
+.container ._nhiemBenh .infor {
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid rebeccapurple;
+}
+.container ._nhiemBenh ._nhiemBenh_1 {
+    margin-left: 40px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.container ._nhiemBenh ._nhiemBenh_1 p {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container ._nhiemBenh ._nhiemBenh_1 .image {
+    width: 60px;
+    height: 60px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+}
+.container ._nhiemBenh ._nhiemBenh_1 .image i {
+    top: 0;
+    left: 0;
+    transform: scale(2.1) translate(50%,50%);
+}
